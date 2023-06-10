@@ -1,0 +1,129 @@
+/*General*/
+@font-face{
+    font-family: ss;
+    src:url(Crunchy Time.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    
+    font-size: 80px;
+    font-family:  'Creepster', cursive;
+    color: orangered
+}
+.head{
+    font-family: 'Creepster', cursive;
+    color: white;
+    font-size: 30px;
+}
+.wrapper{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+/*Header*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: 559px;
+  width: 20%;
+}
+header{
+    height: 5px;
+    margin-top: 32px;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    float: right;
+}
+/*main image*/
+
+#center2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+
+}
+#main-image {
+    margin-top: 175px;
+    height: 500px;
+    background: url("https://www.ac-dc.net/img1/acdc_header-index.jpg") center;
+}
+#main-image h2{
+    padding: 250px 0 40px 0;
+    text-align: center;
+}
+#main-image a{
+    display:inline-block;
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    margin: 290px 600px 250px 600px;
+    line-height: 50px;
+    background-color: orangered;
+    border border-radius: 50px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+/*News*/
+
+#News{
+    padding: 60px 0px;
+}
+#News article{
+    width: 358px;
+    height: 180px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-family: fantasy
+}
+.overlay{
+   background-color: white; 
+    margin-top: 180px;
+    width: 353px;
+    padding: 3px;
+
+}
+
+/*video*/
+
+#videos{
+    padding: 60px 0px;
+}
+#video article{
+    width: 358px;
+    height: 180px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-family: fantasy
+}
+
+.overlay2{
+    width: 250px;
+    height: 362px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-family: fantasy
+}
